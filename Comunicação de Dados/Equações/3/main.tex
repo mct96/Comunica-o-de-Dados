@@ -1,0 +1,40 @@
+\documentclass{minimal}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+\begin{equation*}
+100 \unit{ms} = \num{100e-3} \unit{s} = \num{e-1} \unit{s} \\
+\end{equation*}
+
+\begin{equation*}
+  f = 1/T = 1/(\num{e-1})\unit{\hertz} = 10 \unit{\hertz} = \num{10e-3} k\unit{\hertz}  = \num{e-2} k\unit{\hertz}
+\end{equation*}
+
+\begin{equation*}
+ 1/6 \times \ang{360} = \ang{60}
+\end{equation*}
+
+\begin{equation*}
+ 1/6 \times \ang{360} = 1/6 \times 2 \times \pi \unit{rad} = 1 / 3 \pi \unit{rad}
+\end{equation*}
+
+\begin{equation*}
+  T(t) = \frac{a_a}{2} + \sum_{n=1}^{\infty}\left[{a_n \cos\left(\frac{n\pi t}{L}\right) + b_n \sin\left(\frac{n\pi t}{L}\right)}\right]
+\end{equation*}
+
+\begin{align*}
+  a_0 &= \frac{1}{L}\int_{c}^{c + 2L}f(t) dt \\
+  a_n &= \frac{1}{L}\int_{c}^{c + 2L}f(t)\cos\left(\frac{n\pi t}{L}\right) dt \\
+  b_n &= \frac{1}{L}\int_{c}^{c + 2L}f(t)\sin\left(\frac{n\pi t}{L}\right) dt
+\end{align*}
+
+\begin{equation*}
+  f(t) =
+  \begin{cases}
+    -1,\,-\pi < t < 0 \\
+    +1,\, 0 \le t < +\pi
+  \end{cases}
+\end{equation*}
+
+\end{document}
