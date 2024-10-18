@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.11)  11 OCT 2024 09:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.10.17)  18 OCT 2024 09:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -76,6 +76,17 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
+(/home/matheusc/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/home/matheusc/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/home/matheusc/.miktex/texmfs/install/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2024-08-20 v3.3.21 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count272
@@ -201,32 +212,45 @@ or `english'. on input line 5.
 \makeMPintoPDFobject=\count293
 \everyMPtoPDFconversion=\toks24
 )
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
+ (/home/matheusc/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 
-[1{/home/matheusc/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}] (main.aux)
+(/home/matheusc/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+[1{/home/matheusc/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map}]
+
+[2] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 5932 strings out of 475834
- 151506 string characters out of 5778004
- 503950 words of memory out of 5000000
- 28577 multiletter control sequences out of 15000+600000
- 558523 words of font info for 38 fonts, out of 8000000 for 9000
- 0 hyphenation exceptions out of 8191
- 73i,9n,80p,223b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.
-pfb></home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb></home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmm
-i7.pfb></home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cm
-r10.pfb></home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
-mr7.pfb></home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm
-/cmsy7.pfb>
-Output written on main.pdf (1 page, 74321 bytes).
+ 6471 strings out of 475809
+ 157832 string characters out of 5777543
+ 512659 words of memory out of 5000000
+ 29102 multiletter control sequences out of 15000+600000
+ 560781 words of font info for 47 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 73i,12n,80p,223b,623s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ </home/matheusc/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1
+000.pk></home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb></home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb></home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb></home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfonts
+/cm/cmr7.pfb></home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfon
+ts/cm/cmsy7.pfb></home/matheusc/.miktex/texmfs/install/fonts/type1/public/amsfo
+nts/symbols/msam10.pfb>
+Output written on main.pdf (2 pages, 95447 bytes).
 PDF statistics:
- 41 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

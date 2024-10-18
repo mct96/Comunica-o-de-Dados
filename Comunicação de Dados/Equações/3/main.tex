@@ -1,5 +1,5 @@
 \documentclass{minimal}
-\usepackage{amsmath}
+\usepackage{amsmath, amssymb}
 \usepackage{siunitx}
 
 \begin{document}
@@ -37,4 +37,82 @@
   \end{cases}
 \end{equation*}
 
+\begin{align*}
+B_1 &= N / 2 \leadsto B_1 = 1 / 2 = 500\unit{kHz} \\
+B_2 &= 3 \times B_1 \leadsto B_2 = 3 \times 500 = 1,5\unit{MHz} \\
+B_3 &= 5 \times B_1 \leadsto B_3 = 5 \times 500 = 2,5\unit{MHz}
+\end{align*}
+
+\begin{equation*}
+  \text{dB} = 10 \times \log\left({\frac{P_2}{P_1}}\right)
+\end{equation*}
+
+\begin{equation*}
+  \text{dB} = 20 \times \log\left({\frac{V_2}{V_1}}\right)
+\end{equation*}
+
+\begin{equation*}
+  10 \times \log\left(\frac{P1/2}{P1}\right) = 10 \times \log\left(\frac{1}{2}\right) = 10 \times -0,3 = -3 \unit{dB}
+\end{equation*}
+
+\begin{equation*}
+  -30 = 10 \times \log\left(P_m\right) \leadsto P_m= \num{10e-3} \unit{mW}
+\end{equation*}
+
+\begin{align*}
+  \text{dB} &= 10 \times \log\left(\frac{P_2}{P_1}\right) = -1,5 \\
+  \frac{P_2}{P_1} &= 10^{-0,15} = 0,71 \\
+  P_2 &= 0,71 \times P_1 = 0,7 \times 2 = 1,4 \unit{mW}
+\end{align*}
+
+\begin{equation*}
+  \text{SNR} = \frac{\text{potência média do sinal}}{\text{potência média do ruído}}
+\end{equation*}
+
+\[\text{SNR}_\text{dB} = 10 \times \log(\text{SNR})\]
+
+\begin{align*}
+  \text{SNR} &= \frac{10000 \unit{\micro W}}{1 \unit{\milli W}} = 10000 \\
+  \text{SNR}_\text{dB} &= 10 \log(10000) = 10 \log(10^4) = 40
+\end{align*}
+
+\[\text{Taxa de Transferência} = 2 \times \text{Largura de Banda} \times \log_2\left(L\right)\]
+
+\[\text{Capacidade} = \text{Largura de Banda} \times \log_2\left(1 + \text{SNR}\right)\]
+
+\[\text{Capacidade} = \text{Largura de Banda} \times \log_2(1 + 0) = 0\]
+
+
+
+\begin{align*}
+  C &= B \times \log_2(1 + \text{SNR})
+\\ &= \num{10e6} \times \log_2(1 + 63)
+\\ &= \num{10e6} \times \log_2(64)
+\\ &= 6 \unit{Mbps}
+\end{align*}
+
+\[\text{Taxa de Transferência} = 2 \times \text{Largura de Banda} \times \log_2(L)\]
+
+\[6 \unit{Mbps} = 2 \times 1 \unit{MHz} \times \log_2(L) \leadsto L = 8 \]
+
+
+\[\text{Latência} = \text{Tempo de Propagação} + \text{Tempo de Transmissão}
++ \text{Tempo de Fila} + \text{Retardo de Processamento}\]
+
+\[\text{Tempo de Propagação} = \text{Distância} / \text{Velocidade de Propagação}\]
+
+\[\num{2,4e8} \unit{m/s}\]
+
+\[\text{Tempo de Transmissão} = \text{Tamanho da Mensagem} / \text{Largura de Banda}\]
+\begin{align*}
+\end{align*}
+
+\begin{align*}
+\end{align*}
+
+\begin{align*}
+\end{align*}
+
+\begin{align*}
+\end{align*}
 \end{document}
